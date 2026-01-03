@@ -54,7 +54,6 @@ $$T_{predicted} = T_{now} + \frac{1}{n} \sum_{i=1}^{n} \Delta t_i$$
 
 Recent Temps (Last 3h): [12.5, 13.2, 14.1]
 Average Trend: +0.80°C per hour
----
 Current Temperature: 14.1°C
 Predicted Temperature (Next Hour): 14.90°C
 
