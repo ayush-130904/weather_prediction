@@ -1,13 +1,13 @@
-﻿🌦️ Weather Trend Predictor
+## ﻿🌦️ Weather Trend Predictor
 
 Real-time Data Analysis with Python & NumPy
 
-📖 Overview
+## 📖 Overview
 
 The goal of this project is to demonstrate how to bridge the gap between real-world data acquisition and mathematical modeling. Instead of using complex Machine Learning libraries, 
 this project uses Vectorized NumPy operations to calculate the rate of temperature change (slope) and predict the weather for the upcoming hour.
 
-🚀 Key Features
+## 🚀 Key Features
 
 Live Data Fetching: Connects to the Open-Meteo API to get real-time meteorological data.
 
@@ -17,7 +17,7 @@ NumPy Optimization: Employs np.diff(), np.mean(), and slicing for high-performan
 
 Clean Formatting: Utilizes Python f-strings with sign flags (e.g., +0.50°C) for clear trend reporting.
 
-🛠️ Technical Stack
+## 🛠️ Technical Stack
 
 Language: Python 3.x
 
@@ -25,7 +25,7 @@ Libraries: * NumPy: Data manipulation and statistical calculations.
 
 Requests: Handling HTTP API calls.
 
-📈 How the Prediction Works
+## 📈 How the Prediction Works
 
 The script follows a 3-step mathematical process:
 Extraction: Pulls the last 3 hours of temperature data into a NumPy array.
@@ -34,7 +34,7 @@ Linear Projection: Calculates the average change ($\bar{\Delta}$) and adds it to
 
 $$T_{predicted} = T_{now} + \frac{1}{n} \sum_{i=1}^{n} \Delta t_i$$
 
-📂 Installation & Usage
+## 📂 Installation & Usage
 
 1. Clone the Repository:
    ```bash
@@ -50,7 +50,7 @@ $$T_{predicted} = T_{now} + \frac{1}{n} \sum_{i=1}^{n} \Delta t_i$$
    python weather_prediction.py
 
 
-📊 Sample Output
+## 📊 Sample Output
 
 Recent Temps (Last 3h): [12.5, 13.2, 14.1]
 Average Trend: +0.80°C per hour
@@ -67,7 +67,7 @@ However, the script is designed to be location-agnostic. You can easily forecast
 lat = "19.2403" # Kalyan Latitude
 lon = "73.1305" # Kalyan Longitude
 
-📝 Future Improvements
+## 📝 Future Improvements
 
 Add Matplotlib integration to visualize the trend line.
 
