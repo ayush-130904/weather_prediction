@@ -57,6 +57,16 @@ Average Trend: +0.80°C per hour
 Current Temperature: 14.1°C
 Predicted Temperature (Next Hour): 14.90°C
 
+## 📍 Customization & Location
+This project was originally developed and tested using coordinates for **Kalyan, Maharashtra, India**. 
+
+However, the script is designed to be location-agnostic. You can easily forecast the weather for your own city by updating the `latitude` and `longitude` parameters in the API URL:
+
+```python
+# Example: Change these values in the script to match your location
+lat = "19.2403" # Kalyan Latitude
+lon = "73.1305" # Kalyan Longitude
+
 📝 Future Improvements
 
 Add Matplotlib integration to visualize the trend line.
