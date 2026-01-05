@@ -66,6 +66,7 @@ However, the script is designed to be location-agnostic. You can easily forecast
 # Example: Change these values in the script to match your location
 lat = "19.2403" # Kalyan Latitude
 lon = "73.1305" # Kalyan Longitude
+```
 
 ## 📝 Future Improvements
 
